@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: block;
+    justify-content: center;
+    text-align: center; 
+}
+
+.links-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 20px;
+}
+
+.link {
+   
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    margin: 29px 50px;
+}
+
+.link img{
+    max-width: 800px;
+}
+
+.link a{
+    margin-right: 27rem;
+}
+
+.link p{
+    margin-right: 27rem;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+
+header img{
+    max-width: 800px;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 90px;
+    text-align: center;
+}
+
+
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 100px;
+    border: 1px rgba(0, 0, 0, 0.233) solid;
+    border-radius: 5px;
+}
+
+.Card{
+    padding: 70px;
+     border: 2px rgba(0, 0, 0, 0.233) solid;
+     border-radius: 5px;
+}
+
+footer{
+
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+footer p{
+
+    font-size: 1.9rem;
+}
