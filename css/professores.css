@@ -28,25 +28,29 @@ main.container {
 }
 
 .Cards {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     padding: 20px;
     margin: 50px auto;
     max-width: 1200px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 .Card {
     padding: 20px;
     text-align: center;
-    flex: 1;
-    margin: 10px;
     border-radius: 10px;
     background: #f9f9f9;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .Card:hover {
@@ -55,27 +59,26 @@ main.container {
 }
 
 .Card button {
-    padding: 20px 40px;
-    font-size: 1.2rem;
+    padding: 15px 30px;
+    font-size: 1rem;
     border: none;
     border-radius: 5px;
     background: #2575fc;
     color: white;
     cursor: pointer;
     transition: background 0.3s ease;
+    margin-top: 15px;
 }
 
 .Card button:hover {
     background: #6a11cb;
 }
-footer{
 
+footer {
     text-align: center;
-    margin-top: 260px;
-   
+    margin-top: 50px;
 }
 
-footer p{
-
-    font-size: 1.9rem;
+footer p {
+    font-size: 1.5rem;
 }
